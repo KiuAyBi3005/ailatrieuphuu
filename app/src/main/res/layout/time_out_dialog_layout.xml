@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/show_question"
+    android:weightSum="20">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue_800"
+        android:alpha="0.5"
+        android:text="@string/time_out_dialog"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:textColor="@color/yellow_200"
+        android:textStyle="bold"
+        android:layout_weight="1" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="18"
+        android:text="@string/game_over"
+        android:gravity="center"
+        android:textSize="30sp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/blue_800"
+        android:layout_gravity="center"
+        android:text="@string/ok_btn"
+        android:textColor="@color/yellow_200"
+        android:textSize="30sp"
+        android:id="@+id/button_ok_time_out" />
+</LinearLayout>
